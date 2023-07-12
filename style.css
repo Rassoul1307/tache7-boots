@@ -1,0 +1,90 @@
+.all{
+    background-color: #311919b1;
+}
+.fixed-background {
+    background-image: url(bg-body.jpg);
+    background-size: cover;
+}
+.carte1{
+    position: relative;
+    background-color: #F6E1C5;
+    left: 170px;
+}
+.btn-1{
+    position: relative;
+    background-color: #7B261A;
+    top: 30px;
+}
+.barre1{
+    background-color:#490909;
+}
+.barre2{
+    background-color: #311919;
+}
+.bande1{
+    background-color: rgba(165, 52, 43, 0.69);
+}
+.carte2,.carte2-about{
+    background-color: #F6E1C5;
+}
+.carte2-about{
+    position: relative;
+    top: -150px;
+}
+@media screen and (max-width:800px) {
+    .carte1{
+        margin-bottom: 35px;
+        left: 0px;
+    }
+    .carte2-about{
+        top: 0px;
+    }
+    .about-img{
+        height: 300px;
+    }
+}
+.bas{
+    position: absolute;
+    top: 80%;
+    width: 30%;
+    left: 10%;
+}
+.haut{
+    width: 25%;
+    left: 55%;
+    top: -12%;
+}
+.bas1{
+    position: absolute;
+    top: 80%;
+    width: 30%;
+    left: 55%;
+}
+.haut1{
+    width: 25%;
+    left: 10%;
+    top: -12%;
+}
+
+@media screen and (max-width:800px){
+    .bas{
+        width: 100%;
+        left: 0;
+    }
+    .haut{
+        width: 100%;
+        left: 0;
+        top: -20%;
+        margin-top: 20px;
+    }
+    .bas1{
+        width: 100%;
+        left: 0;
+    }
+    .haut1{
+        width: 100%;
+        left: 0;
+        top: -20%;
+        margin-top: 20px;
+    }
+}
